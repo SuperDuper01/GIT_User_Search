@@ -9,7 +9,7 @@ This application allows users to search for GitHub accounts by entering a userna
 ## Technologies Used:
 
 - React
-- JavaScript (ES6+)
+- JavaScript 
 - GitHub API
 
 ## Getting Started:
@@ -29,7 +29,7 @@ This application allows users to search for GitHub accounts by entering a userna
    npm install
    ```
 
-4. Run the development server:
+4. Run the code:
    ```bash
    npm start
    ```
