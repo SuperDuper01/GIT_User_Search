@@ -111,6 +111,6 @@ reportWebVitals();
 2. Click the "Search" button to fetch and display GitHub accounts matching the entered query.
 3. View the results displayed below the search form, where each user card provides a profile link, account link, and username.
 
-## Contributing:
+## Contributions:
 
 Contributions are welcome! Please feel free to submit a pull request or raise an issue if you encounter any bugs or have suggestions for improvements
