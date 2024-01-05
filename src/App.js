@@ -17,16 +17,6 @@ export default function App() {
     // console.log(event)
     setInputValue(event.target.value);
   }
-
-
-
-  //  js  : synchronous : step by step 
-
-
-  // line 1
-  // line 2
-  //  line 3
-
   async function onSearchSubmit() {
     //  line one : geting data from api 
     //  rsetting the response data
