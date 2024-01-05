@@ -58,9 +58,7 @@ https://api.github.com/search/users?q={query}
     }
   }
 ```
-- The ```javascript 
-`${query}`
-``` is where we place the user name which is to be searched and send that request to the GIT API.
+- The `${query}` is where we place the user name which is to be searched and send that request to the GIT API.
 ### Components:
 
 #### `App.js`:
