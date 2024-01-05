@@ -1,4 +1,4 @@
-Certainly! Here's an updated `README.md` content that includes a section for the `UserCard` component:
+Certainly! Here's an updated version of the `README.md` file that includes a section for the `index.js` file:
 
 ---
 
@@ -81,6 +81,30 @@ export default function UserCard(props) {
 }
 ```
 
+#### `index.js`:
+
+- **Description**: The entry point of the React application where the root component (`App`) is rendered within a `StrictMode` wrapper to detect potential problems in an application.
+- **Libraries/Modules**:
+  - `ReactDOM`: Used to render React components into the DOM.
+  - `reportWebVitals`: A utility for measuring and analyzing web vitals.
+
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>
+);
+
+reportWebVitals();
+```
+
 ## Usage:
 
 1. Enter a username or email in the search input field.
@@ -89,4 +113,4 @@ export default function UserCard(props) {
 
 ## Contributing:
 
-Contributions are welcome! Please feel free to submit a pull request or raise an issue if you encounter any bugs or have suggestions for improvements.
+Contributions are welcome! Please feel free to submit a pull request or raise an issue if you encounter any bugs or have suggestions for improvements
