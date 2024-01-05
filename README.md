@@ -39,9 +39,10 @@ This application allows users to search for GitHub accounts by entering a userna
 ### API Interaction:
 
 - The application interacts with the GitHub API to search for user accounts based on the entered query.
-- The API link used in this code: [Link](https://api.github.com/search/users?q={query})
-
-
+- The API link used in this code: 
+```bash 
+https://api.github.com/search/users?q={query} 
+```
 
 ### Components:
 
