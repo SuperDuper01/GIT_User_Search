@@ -43,7 +43,24 @@ This application allows users to search for GitHub accounts by entering a userna
 ```bash 
 https://api.github.com/search/users?q={query} 
 ```
+### Fetching Data From The API
+- The code used to fetch data from the API in javascript is :
+```javascript
+  const API_URL = "https://api.github.com";
 
+  async function findGithubAccounts(query) {
+    try {
+      const response = await fetch(`${API_URL}/search/users?q=${query}`);
+      const json = await response.json();
+      return json.items || [];
+    } catch (e) {
+      throw new Error(e);
+    }
+  }
+```
+- The ```javascript 
+`${query}`
+``` is where we place the user name which is to be searched and send that request to the GIT API.
 ### Components:
 
 #### `App.js`:
