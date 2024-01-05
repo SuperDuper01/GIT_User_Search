@@ -1,7 +1,3 @@
-Certainly! Here's an updated version of the `README.md` file that includes a section for the `index.js` file:
-
----
-
 # GitHub Account Finder App
 
 This application allows users to search for GitHub accounts by entering a username or email. It utilizes the GitHub API to fetch user data based on the search query and displays the results in a user-friendly manner.
@@ -10,7 +6,7 @@ This application allows users to search for GitHub accounts by entering a userna
 
 - React
 - JavaScript 
-- GitHub API
+- GitHub API 
 
 ## Getting Started:
 
