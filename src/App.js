@@ -63,7 +63,7 @@ export default function App() {
   return (
       <main className="main">
 
-        <h2>Project 5: GitHub Account Finder</h2>
+        <h2>GitHub Account Finder</h2>
 
         <div className="search-form">
 
