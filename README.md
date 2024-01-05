@@ -39,6 +39,9 @@ This application allows users to search for GitHub accounts by entering a userna
 ### API Interaction:
 
 - The application interacts with the GitHub API to search for user accounts based on the entered query.
+- The API link used in this code: [Link](https://api.github.com/search/users?q={query})
+
+
 
 ### Components:
 
@@ -49,7 +52,7 @@ This application allows users to search for GitHub accounts by entering a userna
 #### `UserCard` Component:
 
 - **Description**: A reusable component to display user details fetched from the GitHub API.
-- **Props**:
+- **Attributes Used From The Data Received**:
   - `profileLink`: URL of the user's profile picture.
   - `accountLink`: URL of the user's GitHub account.
   - `username`: GitHub username of the user.
@@ -82,7 +85,6 @@ export default function UserCard(props) {
 - **Description**: The entry point of the React application where the root component (`App`) is rendered within a `StrictMode` wrapper to detect potential problems in an application.
 - **Libraries/Modules**:
   - `ReactDOM`: Used to render React components into the DOM.
-  - `reportWebVitals`: A utility for measuring and analyzing web vitals.
 
 ```javascript
 import React from 'react';
