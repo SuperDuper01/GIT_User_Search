@@ -6,7 +6,9 @@ This application allows users to search for GitHub accounts by entering a userna
 
 - React
 - JavaScript 
-- GitHub API 
+- GitHub API
+- HTML
+- CSS 
 
 ## Getting Started:
 
